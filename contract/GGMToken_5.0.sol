@@ -1,4 +1,4 @@
-pragma solidity ^0.5.00;
+pragma solidity ^0.7.4;
 
 // ----------------------------------------------------------------------------
 // 'SORRYFINANCE' token contract
