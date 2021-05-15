@@ -1,13 +1,13 @@
 pragma solidity 0.6.6;
 
 // ----------------------------------------------------------------------------
-// 'SORRYFINANCE' token contract
+// 'SORRYFinanceTEST' token contract
 //
 // Deployed to : 0x4672fFcAf81834abB766932A00e7cE9aFC46bC70
 // Symbol      : SORRY
 // Name        : SORRYFinance
-// Total supply: 5000000000000000
-// Decimals    : 18
+// Total supply: 50000000000000000000000000000
+// Decimals    : 14
 //
 // Enjoy.
 //
@@ -115,10 +115,10 @@ contract SORRYFinance is ERC20Interface, Owned, SafeMath {
     constructor() public {
         symbol = "SORRY";
         name = "SORRYFinance";
-        decimals = 18;
-        _totalSupply = 100000000000000000000000000;
-        balances[0x4672fFcAf81834abB766932A00e7cE9aFC46bC70] = _totalSupply;
-        emit Transfer(address(0), 0x4672fFcAf81834abB766932A00e7cE9aFC46bC70, _totalSupply);
+        decimals = 14;
+        _totalSupply = 50000000000000000000000000000;
+        balances[0x818fC2F903d359A23C92514e40d14Cc7B76a9ac4] = _totalSupply;
+        emit Transfer(address(0), 0x818fC2F903d359A23C92514e40d14Cc7B76a9ac4, _totalSupply);
     }
 
 
