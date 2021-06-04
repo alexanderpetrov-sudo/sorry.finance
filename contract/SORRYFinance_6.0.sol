@@ -1,3 +1,7 @@
+/**
+ *Submitted for verification at BscScan.com on 2021-06-04
+*/
+
 pragma solidity 0.6.6;
 
 // ----------------------------------------------------------------------------
@@ -369,7 +373,7 @@ contract SORRYFinance is Context, ERC20Interface, Ownable {
     address[] private _excluded;
    
     uint256 private constant MAX = ~uint256(0);
-    uint256 private _tTotal = 50000000000000 * 10**6 * 10**9;
+    uint256 private _tTotal = 75000000000000 * 10**6 * 10**9;
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
@@ -412,8 +416,8 @@ contract SORRYFinance is Context, ERC20Interface, Ownable {
         _name = "SORRYFinance";
         _decimals = 14;
         // _rTotal = 50000000000000000000000000000;
-        _balanceOf[0x818fC2F903d359A23C92514e40d14Cc7B76a9ac4] = _tTotal;
-        emit Transfer(address(0), 0x818fC2F903d359A23C92514e40d14Cc7B76a9ac4, _tTotal);
+        _balanceOf[0x3a8c98f1e25cd17BB009bF237AB5D2aA638890De] = _tTotal;
+        emit Transfer(address(0), 0x3a8c98f1e25cd17BB009bF237AB5D2aA638890De, _tTotal);
     }
 
 function name() public view returns (string memory) {
