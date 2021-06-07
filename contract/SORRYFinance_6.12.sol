@@ -1,5 +1,7 @@
 
 
+ /*
+   
    #SORRY.finance features:
    3% fee auto add to the liquidity pool to locked forever when selling
    2% fee auto distribute to all holders
